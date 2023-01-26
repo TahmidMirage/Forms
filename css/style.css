@@ -1,0 +1,128 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: Ubuntu;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Montserrat;
+}
+
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+div.container {
+/*	background: darkred;*/
+	height: 750px;
+	margin-top: 60px;;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.signinimage{
+	display: inline-block;
+	vertical-align: middle;
+	width: 45%;
+	margin-right: 40px;
+	max-height: auto;
+}
+
+div.signininfo{
+	background-color: /*blue*/;
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	height: 100%;
+}
+
+div.signupinfo{
+	background-color: /*blue*/;
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	height: 100%;
+}
+
+.login-form{
+	width: 100%;
+	margin: 10px 0px;
+	font-family: Ubuntu;
+	font-size: 18px;
+	line-height: 28px;
+	max-height: auto;
+}
+
+.signup-form{
+	text-align: left;
+	width: 100%;
+	margin: 4px 0px;
+	font-family: Ubuntu;
+	font-size: 14px;
+	line-height: 24px;
+	max-height: auto;
+}
+
+.btn-primary{
+	padding: 15px 40px;
+	margin: 10px 0px 0px;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer
+}
+
+.radio-buttons{
+	text-align: left;
+	font-family: Ubuntu;
+	font-size: 18px;
+}
+
+div.one{
+	background-color: /*red*/;
+	margin-top: ;
+	height: 33.333%;
+}
+div.one.signup{
+	background-color: /*red*/;
+	margin-bottom: 1rem;
+	height: 30%;
+}
+div.two{
+	background-color: /*orange*/;
+	height: 33.333%;
+	}
+div.three{
+	background-color: /*green*/;
+	height: 33.333%;
+	text-align: left;
+}
+
+input{
+    margin-top: .75rem;
+    padding: 20px;
+    padding-right: 120px;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: black;
+}
+
